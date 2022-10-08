@@ -1,10 +1,9 @@
 # Mixed Signal Circuit Design and Simulation Marathon
-# XOR-XNOR-Gate
+# SPWM Generation
 - [Abstract](#abstract)
 - [Reference Circuit Diagram](#reference-circuit-diagram)
 - [Reference Waveform](#reference-waveform)
 - [Circuit Details](#circuit-details)
-- [Truth Table](#truth-table)
 - [Software Used](#software-used)
   * [eSim](#esim)
   * [NgSpice](#ngspice)
@@ -17,7 +16,6 @@
 - [Makerchip Plots](#makerchip-plots)
 - [Netlists](#netlists)
 - [NgSpice Plots](#ngspice-plots)
-- [GAW Plots](#gaw-plots)
 - [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
 - [Steps to run this project](#steps-to-run-this-project)
 - [Acknowlegdements](#acknowlegdements)
