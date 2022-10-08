@@ -1,0 +1,4449 @@
+optran: no such command available in ngspice
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_nd, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_generic_pd, ignored
+Warning: redefinition of .subckt sky130_fd_pr__pnp_05v5_w0p68l0p68, ignored
+Warning: redefinition of .subckt sky130_fd_pr__model__parasitic__res_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_0p35, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_0p69, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_1p41, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_2p85, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po_5p73, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_xhigh_po__base, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_0p35, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_0p69, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_1p41, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_2p85, ignored
+Warning: redefinition of .subckt sky130_fd_pr__res_high_po_5p73, ignored
+
+Circuit: * /home/parthasingharoy166/esim-workspace/psr_opamp/psr_opamp.cir
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Warning: Model issue on line 44 :
+  .model sky130_fd_pr__diode_pw2nd_05v5 d level=3.0 tlevc=1.0 area=1.0e+12 ...
+unrecognized parameter (vb) - ignored
+unrecognized parameter (gap1) - ignored
+unrecognized parameter (gap2) - ignored
+unrecognized parameter (xw) - ignored
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: i.x2.ihyst: no DC value, transient time 0 value used
+Warning: include: has no value, DC 0 assumed
+Warning: v8: no DC value, transient time 0 value used
+Warning: v6: no DC value, transient time 0 value used
+Warning: v7: no DC value, transient time 0 value used
+Warning: v4: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+No. of Data Rows : 4221
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/parthasingharoy166/eSim-Workspace/psr_opamp/psr_opamp.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: i.x2.ihyst: no DC value, transient time 0 value used
+Warning: include: has no value, DC 0 assumed
+Warning: v8: no DC value, transient time 0 value used
+Warning: v6: no DC value, transient time 0 value used
+Warning: v7: no DC value, transient time 0 value used
+Warning: v4: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 115  
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=1
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=1
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+=============partha_dff_update_1 : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+clk=1
+sync_reset=0
+Q=0
+
+Inside foo after eval.....
+D=0
+clk=0
+sync_reset=0
+Q=0
+
+No. of Data Rows : 4136
+
+Total analysis time (seconds) = 2.04407
+
+Total CPU time (seconds) = 14.925 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 24715.086 MB.
+Maximum ngspice program size =  397.188 MB.
+Current ngspice program size =  331.996 MB.
+
+Shared ngspice pages =    9.953 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =  324.961 MB.
+

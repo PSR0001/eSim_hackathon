@@ -1,0 +1,53 @@
+* /home/parthasingharoy166/esim-workspace/psr_opamp/psr_opamp.cir
+
+.include avsd_opamp.sub
+.include avsdcmp_3v3_sky130.sub
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__r+c.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__pnp.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pw2nd_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__diode_pd2nw_11v0.model.spice"
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__inductors.model.spice"
+.lib "/usr/share/local/sky130_fd_pr/models/sky130.lib.spice" tt
+.include "/usr/share/local/sky130_fd_pr/models/sky130_fd_pr__model__linear.model.spice"
+v3 vdd gnd  dc 1
+v2 vss gnd  dc -1
+* s c m o d e
+x1 vdd vss gnd net-_sc1-pad1_ net-_sc1-pad2_ gnd avsd_opamp
+* u2  input plot_v1
+v1  input gnd pulse(-1 1 0.1m 0.1m 0 1m 2m)
+xsc2 input net-_sc1-pad1_ sky130_fd_pr__cap_mim_m3_2 
+xsc1 net-_sc1-pad1_ net-_sc1-pad2_ ? sky130_fd_pr__res_generic_nd 
+x2 vcc vcc net-_sc1-pad2_ sine ? gnd avsdcmp_3v3_sky130
+v5 vcc gnd  dc 3.3
+v4  sine gnd sine(0 1 1000 0 0)
+* u3  fout. plot_v1
+v7  reset gnd pulse(0 3.3 0 0.1m 0.1m 1m 10m)
+* u7  spwm plot_v1
+* u6  net-_u4-pad4_ spwm dac_bridge_1
+* u5  fout. clk reset net-_u4-pad1_ net-_u4-pad2_ net-_u4-pad3_ adc_bridge_3
+v6  clk gnd pulse(0 3.3 0.1n 0.1m 0.1m 1m 2m)
+* u4  net-_u4-pad1_ net-_u4-pad2_ net-_u4-pad3_ net-_u4-pad4_ partha_dff_update_1
+v8  fout. gnd pulse(0 3.3 0.1n 0.1n 0.1n 5m 10m)
+* u1  sine plot_v1
+* u8  clk plot_v1
+a1 [net-_u4-pad4_ ] [spwm ] u6
+a2 [fout. clk reset ] [net-_u4-pad1_ net-_u4-pad2_ net-_u4-pad3_ ] u5
+a3 [net-_u4-pad1_ ] [net-_u4-pad2_ ] [net-_u4-pad3_ ] [net-_u4-pad4_ ] u4
+* Schematic Name:                             dac_bridge_1, NgSpice Name: dac_bridge
+.model u6 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
+.model u5 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             partha_dff_update_1, NgSpice Name: partha_dff_update_1
+.model u4 partha_dff_update_1(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 0.001e-00 0.1e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(input)
+plot v(clk)+12 v(fout.)+6 v(spwm)
+plot v(sine)
+.endc
+.end

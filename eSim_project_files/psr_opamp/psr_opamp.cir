@@ -1,0 +1,31 @@
+* /home/parthasingharoy166/eSim-Workspace/psr_opamp/psr_opamp.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 08 Oct 2022 03:37:18 PM IST
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v3  Vdd GND DC		
+v2  Vss GND DC		
+scmode1  SKY130mode		
+X1  Vdd Vss GND Net-_SC1-Pad1_ Net-_SC1-Pad2_ GND avsd_opamp		
+U2  input plot_v1		
+v1  input GND pulse		
+SC2  input Net-_SC1-Pad1_ sky130_fd_pr__cap_mim_m3_2		
+SC1  Net-_SC1-Pad1_ Net-_SC1-Pad2_ ? sky130_fd_pr__res_generic_nd		
+X2  Vcc Vcc Net-_SC1-Pad2_ Sine ? GND avsdcmp_3v3_sky130		
+v5  Vcc GND DC		
+v4  Sine GND sine		
+U3  FOUT. plot_v1		
+v7  reset GND pulse		
+U7  SPWM plot_v1		
+U6  Net-_U4-Pad4_ SPWM dac_bridge_1		
+U5  FOUT. clk reset Net-_U4-Pad1_ Net-_U4-Pad2_ Net-_U4-Pad3_ adc_bridge_3		
+v6  clk GND pulse		
+U4  Net-_U4-Pad1_ Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_U4-Pad4_ partha_dff_update_1		
+v8  FOUT. GND pulse		
+U1  Sine plot_v1		
+U8  clk plot_v1		
+
+.end
