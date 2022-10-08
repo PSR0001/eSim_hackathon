@@ -10,6 +10,7 @@
   * [NgSpice](#ngspice)
   * [Makerchip](#makerchip)
   * [Verilator](#verilator)
+  * [Skywater130 pdk](#Skywater130-pdk )
 - [Circuit Diagram in eSim](#circuit-diagram-in-esim)
 - [Verilog Code](#verilog-code)
 - [Makerchip](#makerchip-1)
@@ -57,16 +58,23 @@ It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electro
 For more details refer:
 </br>
 https://esim.fossee.in/home
+
 ### NgSpice
 It is an Open Source Software for Spice Simulations. For more details refer:
 </br>
 http://ngspice.sourceforge.net/docs.html
+
 ### Makerchip
 It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. Refer
 </br> https://www.makerchip.com/
+
 ### Verilator
 It is a tool which converts Verilog code to C++ objects. Refer:
 https://www.veripool.org/verilator/
+
+### Skywater130 pdk
+While the SKY130 process node and the PDK from which this open source release was derived have been used to create many designs that have been successfully manufactured commercially in significant quantities, the open source PDK is not intended to be used for production settings at this current time. It should be usable for doing test chips and initial design verification
+https://skywater-pdk.readthedocs.io/en/main/
 
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
@@ -183,24 +191,25 @@ U8  clk plot_v1
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
-```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
+```git clone https://github.com/PSR0001/eSim_hackathon```</br>
 3. Change directory:</br>
-```cd eSim_project_files/xor_xnor```</br>
+```cd eSim_project_files/psr_opamp```</br>
 4. Run ngspice:</br>
-```ngspice xor_xnor.cir.out```</br>
+```ngspice psr_opamp.cir.out```</br>
 5. To run the project in eSim:
 
   - Run eSim</br>
   - Load the project</br>
   - Open eeSchema</br>
 ## Acknowlegdements
-1. FOSSEE, IIT Bombay
-2. Steve Hoover, Founder, Redwood EDA
-3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-4. Sumanto Kar, eSim Team, FOSSEE
+1. http://iitb.ac.in/
+2. https://www.google.co.in/
+3. https://fossee.in/
+4. https://spoken-tutorial.org/
+5. https://www.vlsisystemdesign.com/
+6. https://www.c2s.gov.in/
 
 ## References
-1. Ahmad, Nabihah & Hasan, Rezaul. (2011). A new design of XOR-XNOR gates for low power application. 10.1109/ICEDSA.2011.5959039. 
-2. K. Ravali, N. R. Vijay, S. Jaggavarapu and R. Sakthivel, "Low power XOR gate design and its applications," 2017 Fourth International Conference on Signal Processing, Communication and Networking (ICSCN), 2017, pp. 1-4, doi: 10.1109/ICSCN.2017.8085699.
-3. https://github.com/Eyantra698Sumanto/Two-in-One-Low-power-XOR-XNOR-Gate.git
+1. Khulesh Sahu, Ravi Tewari “Study of different type of comparator”.
+2. SPWM Signal : https://youtu.be/XhgV6YUaMZA
 
